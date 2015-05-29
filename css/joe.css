@@ -84,6 +84,12 @@ General Styles (Classes)
 .block {
 	display: block;
 }
+.fixed {
+	position: fixed;
+}
+.hide {
+	visibility: hidden;
+}
 
 /*---
 Color Styles (Classes)
@@ -124,11 +130,14 @@ Color Styles (Classes)
 /*---
 Hover Styles (Classes)
 ---*/
-.hov-show {
-	visibility: hidden;
+.hov-show-con:hover .hov-show {
+	opacity: 1;
 }
-.img:hover .hov-show{
-	visibility: visible;
+.hov-show{
+	opacity: 0;
+}
+.hov-show:hover {
+	opacity: 1;
 }
 .hov-lighter:hover {
 	opacity: 0.9;
@@ -178,7 +187,7 @@ header .geomicon {
 }
 
 /*---
-Layout Styles
+Layout Styles = messy will clean later
 ---*/
 .fl {
   float: left;
@@ -229,6 +238,9 @@ Layout Styles
 }
 .m025-top {
 	margin-top: .25rem;
+}
+.m1-top {
+	margin-top: 1rem;
 }
 .m05-bot {
 	margin-bottom: .5rem;
@@ -301,8 +313,20 @@ Responsive Styles
 	.wi50-s {
 		width: 50%;
 	}
+	.p1-le-s {
+		padding-left: 1rem;
+	}
+	.p1-ri-s {
+		padding-right: 1rem;
+	}
+	.p15-s {
+		padding: 1.5rem;
+	}
 	.p2-s {
 		padding: 2rem;
+	}
+	.p2-le-s {
+		padding-left: 2rem;
 	}
 	.p2-ri-s {
 		padding-right: 2rem;
@@ -317,6 +341,9 @@ Responsive Styles
 		width: 2.5rem;
 		height: 2.5rem;
 	}
+	.show-s {
+		visibility: visible;
+	}
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
 	.wi50-m {
@@ -330,11 +357,17 @@ Responsive Styles
 	.wi33-l {
 		width: 33%;
 	}
+	.p2-l {
+		padding: 2rem;
+	}
 	.p3-l {
 		padding: 3rem;
 	}
 	.p4-l {
 		padding: 4rem;
+	}
+	.p1-top-l {
+		padding-top: 1rem;
 	}
 	.p2-top-l {
 		padding-top: 2rem;
