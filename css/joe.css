@@ -29,7 +29,6 @@ a:hover {
 }
 h1, h2 {
 	font-family: 'Bitter', serif;
-	line-height: .75rem;
 }
 img {
 	width: 100%;
@@ -54,10 +53,6 @@ General Styles (Classes)
 }
 .tag.white {
 	border-color: #fff;
-}
-.bg-img {
-	background: url('https://download.unsplash.com/photo-1429000263672-1b8b4008d2f7') no-repeat 0 0;
-	background-size: cover;
 }
 .overlay {
 	position: absolute;
@@ -105,14 +100,12 @@ Color Styles (Classes)
 }
 .bg-gray {
 	background: #f1f1f1;
-	color: #333;
+}
+.bg-white {
+	background: #fff;
 }
 .bg-blue {
 	background: rgba(78,132,193,1);
-	color: #fff;
-}
-.bg-blue a, .bg-blue p, .bg-blue h1, .bg-blue h2 {
-	color: #fff;
 }
 .bg-blue a:hover {
 	background: none;
@@ -236,11 +229,17 @@ Layout Styles = messy will clean later
 	padding-left: .5rem;
 	padding-right: .5rem;
 }
+.m0-top {
+	margin-top: 0;
+}
 .m025-top {
 	margin-top: .25rem;
 }
 .m1-top {
 	margin-top: 1rem;
+}
+.m0-bot {
+	margin-bottom: 0;
 }
 .m05-bot {
 	margin-bottom: .5rem;
