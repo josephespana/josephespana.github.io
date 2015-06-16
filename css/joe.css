@@ -83,7 +83,14 @@ General Styles (Classes)
 	position: fixed;
 }
 .hide {
+	display: none;
+}
+.invis {
 	visibility: hidden;
+}
+.sq35 {
+	width: 35px;
+	height: 35px;
 }
 
 /*---
@@ -98,7 +105,7 @@ Color Styles (Classes)
 .bg-orange {
 	background: #FF851B;
 }
-.bg-gray {
+.bg-lt-gray {
 	background: #f1f1f1;
 }
 .bg-white {
@@ -235,11 +242,17 @@ Layout Styles = messy will clean later
 .m025-top {
 	margin-top: .25rem;
 }
+.m05-top {
+	margin-top: .5rem;
+}
 .m1-top {
 	margin-top: 1rem;
 }
 .m0-bot {
 	margin-bottom: 0;
+}
+.m025-bot {
+	margin-bottom: .25rem;
 }
 .m05-bot {
 	margin-bottom: .5rem;
@@ -249,6 +262,15 @@ Layout Styles = messy will clean later
 }
 .m2-bot {
 	margin-bottom: 2rem;
+}
+.m1-right {
+	margin-right: 1rem;
+}
+.m15-right {
+	margin-right: 1.5rem;
+}
+.m2-right {
+	margin-right: 2rem;
 }
 .w100 {
 	width: 100%
@@ -265,6 +287,9 @@ Layout Styles = messy will clean later
 }
 .inline {
 	display: inline;
+}
+.inl-blk {
+	display: inline-block;
 }
 .left {
 	float: left;
@@ -336,12 +361,22 @@ Responsive Styles
 	.m2-bot-s {
 		margin-bottom: 2rem;
 	}
+	.m15-right-s {
+		margin-right: 1.5rem;
+	}
 	.geomicon-s {
 		width: 2.5rem;
 		height: 2.5rem;
 	}
 	.show-s {
+		display: block;
+	}
+	.vis-s {
 		visibility: visible;
+	}
+	.sq65-s {
+		width: 65px;
+		height: 65px;
 	}
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
