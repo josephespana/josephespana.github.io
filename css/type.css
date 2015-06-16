@@ -12,6 +12,7 @@
 .f4    { font-size: 1rem; }
 .f5,
 .small { font-size: .85rem; }
+.f6 { font-size: .7rem; }
 
 @media only screen and (min-width: 48em) {
   .f1-ns    { font-size: 4rem; }
@@ -20,6 +21,7 @@
   .f4-ns    { font-size: 1rem; }
   .f5-ns,
   .small-ns { font-size: .85rem; }
+  .f6-ns { font-size: .7rem; }
 }
 
 @media only screen and (min-width: 48em) and (max-width: 64em) {
@@ -29,6 +31,7 @@
   .f4-m    { font-size: 1rem; }
   .f5-m,
   .small-m { font-size: .85rem; }
+  .f6-m { font-size: .7rem; }
 }
 
 @media only screen and (min-width: 64em)  {
@@ -38,5 +41,6 @@
   .f4-l    { font-size: 1.25rem; }
   .f5-l,
   .small-l { font-size: 1rem; }
+  .f6-l { font-size: .7rem; }
 }
 

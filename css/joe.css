@@ -76,6 +76,9 @@ General Styles (Classes)
 .b1-top {
 	border-top: 1px solid #ccc;
 }
+.b1-bot {
+	border-bottom: 1px solid #ccc;
+}
 .block {
 	display: block;
 }
@@ -106,6 +109,9 @@ Color Styles (Classes)
 	background: #FF851B;
 }
 .bg-lt-gray {
+	background: #f8f8f8;
+}
+.bg-gray {
 	background: #f1f1f1;
 }
 .bg-white {
@@ -125,6 +131,9 @@ Color Styles (Classes)
 }
 .black {
 	color: #333;
+}
+.blue {
+	color: #4E84C1;
 }
 
 /*---
@@ -146,9 +155,6 @@ Hover Styles (Classes)
 /*---
 Typography Styles (Classes)
 ---*/
-.f6 {
-	font-size: .7rem;
-}
 .hl {
 	background: rgba(255,255,255,.25);
 }
@@ -205,6 +211,9 @@ Layout Styles = messy will clean later
 .p0-top {
 	padding-top: 0;
 }
+.p025-top {
+	padding-top: .25rem;
+}
 .p05-top {
 	padding-top: .5rem;
 }
@@ -232,6 +241,9 @@ Layout Styles = messy will clean later
 .p2-bot {
 	padding-bottom: 2rem;
 }
+.p20-bot {
+	padding-bottom: 20rem;
+}
 .p05-sides {
 	padding-left: .5rem;
 	padding-right: .5rem;
@@ -244,6 +256,9 @@ Layout Styles = messy will clean later
 }
 .m05-top {
 	margin-top: .5rem;
+}
+.m075-top {
+	margin-top: .75rem;
 }
 .m1-top {
 	margin-top: 1rem;
@@ -326,13 +341,17 @@ Layout Styles = messy will clean later
 
 .mw10 {
   max-width: 128rem; }
+  
+/*---
+Flexbox Styles
+---*/
+.flex {
+	display: flex;
+}
 
 /*---
 Responsive Styles
 ---*/
-.wi100 {
-	width: 100%;
-}
 @media screen and (min-width: 48em) {
 	.wi50-s {
 		width: 50%;
@@ -355,6 +374,15 @@ Responsive Styles
 	.p2-ri-s {
 		padding-right: 2rem;
 	}
+	.p1-top-s {
+		padding-top: 1rem;
+	}
+	.p15-top-s {
+		padding-top: 1.5rem;
+	}
+	.m05-top-s {
+		margin-top: .5rem;
+	}
 	.m1-top-s {
 		margin-top: 1rem;
 	}
@@ -364,19 +392,17 @@ Responsive Styles
 	.m15-right-s {
 		margin-right: 1.5rem;
 	}
-	.geomicon-s {
-		width: 2.5rem;
-		height: 2.5rem;
-	}
 	.show-s {
 		display: block;
 	}
 	.vis-s {
 		visibility: visible;
 	}
-	.sq65-s {
-		width: 65px;
-		height: 65px;
+	.left-s {
+		float: left;
+	}
+	.right-s {
+		float: right;
 	}
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -394,20 +420,11 @@ Responsive Styles
 	.p2-l {
 		padding: 2rem;
 	}
-	.p3-l {
-		padding: 3rem;
-	}
-	.p4-l {
-		padding: 4rem;
-	}
 	.p1-top-l {
 		padding-top: 1rem;
 	}
 	.p2-top-l {
 		padding-top: 2rem;
-	}
-	.p4-bot-l {
-		padding-bottom: 4rem;
 	}
 }
 @media screen and (min-width: 96em) {
