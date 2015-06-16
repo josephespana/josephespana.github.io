@@ -379,6 +379,9 @@ Responsive Styles
 	.p15-top-s {
 		padding-top: 1.5rem;
 	}
+	.p20-bot-s {
+		padding-bottom: 20rem;
+	}
 	.m05-top-s {
 		margin-top: .5rem;
 	}
@@ -424,6 +427,9 @@ Responsive Styles
 	}
 	.p2-top-l {
 		padding-top: 2rem;
+	}
+	.p20-bot-l {
+		padding-bottom: 20rem;
 	}
 }
 @media screen and (min-width: 96em) {
