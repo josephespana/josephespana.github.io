@@ -220,6 +220,9 @@ Layout Styles = messy will clean later
 .p2-top {
 	padding-top: 2rem;
 }
+.p0-bot {
+	padding-bottom: 0;
+}
 .p05-bot {
 	padding-bottom: .5rem;
 }
