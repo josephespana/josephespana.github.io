@@ -127,6 +127,9 @@ Color Styles (Classes)
 a:hover .ylw-hov{
 	color: rgba(230,230,90,1);
 }
+.show-invis:hover .invis {
+	visibility: visible;
+}
 
 /*---
 Hover Styles (Classes)
@@ -360,6 +363,12 @@ Layout Styles = messy will clean later
 .sq3 {
 	width: 3rem;
 	height: 3rem;
+}
+.mih50 {
+	min-height: 50vh;
+}
+.mih75 {
+	min-height: 75vh;
 }
 
 /*---
