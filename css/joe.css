@@ -111,9 +111,15 @@ Color Styles (Classes)
 .bg-lt-blue {
 	background: rgba(123,172,227,1);
 }
+.bg-dk-blue {
+	background-color: rgba(0,115,207,1);
+}
 .bg-blue a:hover {
 	background: none;
 	color: #E6E65A;
+}
+.bg-black-op {
+	background-color: rgba(0,0,0,.5);
 }
 .white {
 	color: #fff;
@@ -364,10 +370,13 @@ Layout Styles = messy will clean later
 	width: 3rem;
 	height: 3rem;
 }
-.mih30 {
-	min-height: 30vh;
+.mh15 {
+	max-height: 1.5rem;
 }
-.mih75 {
+.mih50vh {
+	min-height: 50vh;
+}
+.mih75vh {
 	min-height: 75vh;
 }
 
