@@ -87,14 +87,14 @@ General Styles (Classes)
 /*---
 Color Styles (Classes)
 ---*/
-.bg-aqua {
-	background: #7FDBFF;
+.bg-navy {
+	background: rgba(0,31,63,.5);
 }
 .bg-olive {
-	background: #3D9970;
+	background: rgba(61,153,112,.5);
 }
-.bg-orange {
-	background: #FF851B;
+.bg-red {
+	background: rgba(255,65,54,.9);
 }
 .bg-lt-gray {
 	background: #f8f8f8;
@@ -121,7 +121,7 @@ Color Styles (Classes)
 	background: rgba(123,172,227,1);
 }
 .bg-dk-blue {
-	background-color: rgba(0,115,207,1);
+	background-color: rgba(0,115,207,.9);
 }
 .bg-blue a:hover {
 	background: none;
@@ -159,7 +159,7 @@ Hover Styles (Classes)
 	opacity: 1;
 }
 .hov-lighter:hover {
-	box-shadow: inset 0 99999px rgba(127,219,255,.125);
+	opacity: .85;
 }
 
 /*---
