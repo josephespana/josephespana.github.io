@@ -28,7 +28,7 @@ a:hover {
 	color: rgba(230,230,90,1);
 }
 h1, h2 {
-	font-family: 'Bitter', serif;
+	font-family: 'Domine', serif;
 }
 img {
 	width: 100%;
@@ -102,11 +102,20 @@ Color Styles (Classes)
 .bg-gray {
 	background: #f1f1f1;
 }
+.bg-dk-gray {
+	background: #333;
+}
 .bg-white {
-	background: #fff;
+	background: rgba(255,255,255,1);
+}
+.bg-white-op {
+	background: rgba(255,255,255,.8);
 }
 .bg-blue {
 	background: rgba(78,132,193,1);
+}
+.bg-blue-op {
+	background: rgba(78,132,193,.5);
 }
 .bg-lt-blue {
 	background: rgba(123,172,227,1);
@@ -119,7 +128,7 @@ Color Styles (Classes)
 	color: #E6E65A;
 }
 .bg-black-op {
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);
 }
 .white {
 	color: #fff;
@@ -166,10 +175,10 @@ Typography Styles (Classes)
 	font-weight: normal;
 }
 .serif {
-	font-family: 'Bitter', georgia, serif;
+	font-family: 'Domine', Georgia, serif;
 }
 .sans {
-	font-family: Helvetica, arial, sans-serif;
+	font-family: 'Monda', 'Helvetica', Arial, sans-serif;
 }
 .copy {
 	line-height: 1.6;
@@ -373,11 +382,11 @@ Layout Styles = messy will clean later
 .mh15 {
 	max-height: 1.5rem;
 }
+.mih30vh {
+	min-height: 30vh;
+}
 .mih50vh {
 	min-height: 50vh;
-}
-.mih75vh {
-	min-height: 75vh;
 }
 
 /*---
@@ -420,6 +429,9 @@ Responsive Styles
 	.p15-sides-s {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
+	}
+	.m4-s {
+		margin: 4rem;
 	}
 	.m05-top-s {
 		margin-top: .5rem;
