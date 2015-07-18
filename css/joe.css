@@ -34,6 +34,7 @@ img {
 	width: 100%;
 }
 p {
+	font-family: 'Monda', 'Helvetica', Arial, sans-serif;
 	line-height: 1.25rem;
 }
 p a:hover {
@@ -448,6 +449,9 @@ Responsive Styles
 	.m2-bot-s {
 		margin-bottom: 2rem;
 	}
+	.m5-bot-s {
+		margin-bottom: 2rem;
+	}
 	.m15-right-s {
 		margin-right: 1.5rem;
 	}
@@ -475,6 +479,12 @@ Responsive Styles
 	.wi50-m {
 		width: 50%;
 	}
+	.p2-m {
+		padding: 2rem;
+	}
+	.p3-m {
+		padding: 3rem;
+	}
 }
 @media screen and (min-width: 64em) {
 	.wi50-l {
@@ -485,6 +495,9 @@ Responsive Styles
 	}
 	.p2-l {
 		padding: 2rem;
+	}
+	.p3-l {
+		padding: 3rem;
 	}
 	.p1-top-l {
 		padding-top: 1rem;
