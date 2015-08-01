@@ -35,10 +35,7 @@ img {
 }
 p {
 	font-family: 'Monda', 'Helvetica', Arial, sans-serif;
-	line-height: 1.25rem;
-}
-p a:hover {
-	text-decoration: underline;
+	line-height: 1.45;
 }
 
 /*---
@@ -51,6 +48,9 @@ General Styles (Classes)
 .overlay {
 	position: absolute;
 	line-height: 0;
+}
+.underline {
+	text-decoration: underline;
 }
 .p-top-left {
 	top: .5rem;
@@ -89,13 +89,13 @@ General Styles (Classes)
 Color Styles (Classes)
 ---*/
 .bg-navy {
-	background: rgba(0,31,63,.5);
+	background: rgba(0,31,63,1);
 }
 .bg-olive {
-	background: rgba(61,153,112,.5);
+	background: rgba(61,153,112,1);
 }
 .bg-red {
-	background: rgba(255,65,54,.9);
+	background: rgba(245, 87, 78, 1);
 }
 .bg-lt-gray {
 	background: #f8f8f8;
@@ -112,21 +112,14 @@ Color Styles (Classes)
 .bg-white-op {
 	background: rgba(255,255,255,.8);
 }
-.bg-blue {
+.bg-lt-blue {
 	background: rgba(78,132,193,1);
 }
-.bg-blue-op {
-	background: rgba(78,132,193,.5);
-}
-.bg-lt-blue {
-	background: rgba(123,172,227,1);
+.bg-blue {
+	background: rgba(52,93,168,1);
 }
 .bg-dk-blue {
-	background-color: rgba(0,115,207,.9);
-}
-.bg-blue a:hover {
-	background: none;
-	color: #E6E65A;
+	background-color: rgba(0,115,207,1);
 }
 .bg-black-op {
 	background-color: rgba(0,0,0,.25);
@@ -218,6 +211,9 @@ Layout Styles = messy will clean later
 .p1 {
 	padding: 1rem;
 }
+.p15 {
+	padding: 1.5rem;
+}
 .p2 {
 	padding: 2rem;
 }
@@ -300,6 +296,15 @@ Layout Styles = messy will clean later
 .m2-top {
 	margin-top: 2rem;
 }
+.m3-top {
+	margin-top: 3rem;
+}
+.m4-top {
+	margin-top: 4rem;
+}
+.m5-top {
+	margin-top: 5rem;
+}
 .m0-bot {
 	margin-bottom: 0;
 }
@@ -315,6 +320,9 @@ Layout Styles = messy will clean later
 .m2-bot {
 	margin-bottom: 2rem;
 }
+.m8-bot {
+	margin-bottom: 8rem;
+}
 .m0-right {
 	margin-right: 0;
 }
@@ -326,6 +334,12 @@ Layout Styles = messy will clean later
 }
 .m2-right {
 	margin-right: 2rem;
+}
+.m025-left {
+	margin-left: .25rem;
+}
+.m05-left {
+	margin-left: .5rem;
 }
 .m0 {
 	margin: 0;
@@ -389,8 +403,17 @@ Layout Styles = messy will clean later
 .mih30vh {
 	min-height: 30vh;
 }
+.mih40vh {
+	min-height: 40vh;
+}
 .mih50vh {
 	min-height: 50vh;
+}
+.mih70vh {
+	min-height: 70vh;
+}
+.mih80vh {
+	min-height: 80vh;
 }
 
 /*---
