@@ -3,7 +3,7 @@ josephespana.github.io
 This is the beginnings of my portfolio website v2.
 
 **To-Do List**
-================
+---
 - Improve performance
 - Test on all the browsers
 - Add images
