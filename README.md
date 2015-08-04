@@ -7,4 +7,5 @@ This is the beginnings of my portfolio website v2.
 - Test on all the browsers
 - Add images
 - Remove Behance links and replace with case study pages
+- Add a Contact Me form
 - Find time to do all of this
