@@ -232,6 +232,12 @@ Padding Styles
 .p2-top {
 	padding-top: 2rem;
 }
+.p3-top {
+	padding-top: 3rem;
+}
+.p4-top {
+	padding-top: 4rem;
+}
 .p0-bot {
 	padding-bottom: 0;
 }
