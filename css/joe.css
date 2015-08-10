@@ -247,6 +247,24 @@ Padding Styles
 .p4-top {
 	padding-top: 4rem;
 }
+.p5-top {
+	padding-top: 5rem;
+}
+.p6-top {
+	padding-top: 6rem;
+}
+.p7-top {
+	padding-top: 7rem;
+}
+.p8-top {
+	padding-top: 8rem;
+}
+.p9-top {
+	padding-top: 9rem;
+}
+.p10-top {
+	padding-top: 10rem;
+}
 .p0-bot {
 	padding-bottom: 0;
 }
@@ -513,6 +531,36 @@ Responsive Styles
 	.sq5-s {
 		width: 5rem;
 		height: 5rem;
+	}
+	.mw1-s {
+	  max-width: 1rem;
+	}
+	.mw2-s {
+	  max-width: 2rem;
+	}
+	.mw3-s {
+	  max-width: 4rem;
+	}
+	.mw4-s {
+	  max-width: 8rem;
+	}
+	.mw5-s {
+	  max-width: 16rem;
+	}
+	.mw6-s {
+	  max-width: 32rem;
+	}
+	.mw7-s {
+	  max-width: 48rem;
+	}
+	.mw8-s {
+	  max-width: 64rem;
+	}
+	.mw9-s {
+	  max-width: 96rem;
+	}
+	.mw10-s {
+	  max-width: 128rem;
 	}
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
