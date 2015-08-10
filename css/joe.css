@@ -91,13 +91,22 @@ Border Styles
 	overflow: hidden;
 }
 .b1 {
-	border: 1px solid #fff;
+	border: 1px solid;
 }
 .b1-top {
-	border-top: 1px solid #fff;
+	border-top: 1px solid;
 }
 .b1-bot {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid;
+}
+.b-white {
+	border-color: #fff;
+}
+.b-lt-gray {
+	border-color: #ccc;
+}
+.b-gray {
+	border-color: #666;
 }
 
 /*---
@@ -396,6 +405,12 @@ Max Height Styles
 /*---
 Min Height Styles
 ---*/
+.mih10vh {
+	min-height: 10vh;
+}
+.mih20vh {
+	min-height: 20vh;
+}
 .mih30vh {
 	min-height: 30vh;
 }
@@ -410,6 +425,12 @@ Min Height Styles
 }
 .mih80vh {
 	min-height: 80vh;
+}
+.mih90vh {
+	min-height: 90vh;
+}
+.mih100vh {
+	min-height: 100vh;
 }
 
 /*---
