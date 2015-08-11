@@ -280,6 +280,12 @@ Padding Styles
 .p2-bot {
 	padding-bottom: 2rem;
 }
+.p3-bot {
+	padding-bottom: 3rem;
+}
+.p4-bot {
+	padding-bottom: 4rem;
+}
 .p5-bot {
 	padding-bottom: 5rem;
 }
@@ -350,6 +356,12 @@ Margin Styles
 }
 .m2-bot {
 	margin-bottom: 2rem;
+}
+.m3-bot {
+	margin-bottom: 3rem;
+}
+.m4-bot {
+	margin-bottom: 4rem;
 }
 .m8-bot {
 	margin-bottom: 8rem;
@@ -482,8 +494,14 @@ Responsive Styles
 	.p15-top-s {
 		padding-top: 1.5rem;
 	}
+	.p3-top-s {
+		padding-top: 3rem;
+	}
 	.p20-bot-s {
 		padding-bottom: 20rem;
+	}
+	.p4-bot-s {
+		padding-bottom: 4rem;
 	}
 	.p3-s {
 		padding: 3rem;
@@ -491,6 +509,10 @@ Responsive Styles
 	.p15-sides-s {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
+	}
+	.p3-sides-s {
+		padding-left: 3rem;
+		padding-right: 3rem;
 	}
 	.m4-s {
 		margin: 4rem;
