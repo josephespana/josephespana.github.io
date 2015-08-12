@@ -392,7 +392,7 @@ Margin Styles
 }
 
 /*---
-Max Width Styles
+Width Styles
 ---*/
 .mw1 {
   max-width: 1rem;
@@ -423,6 +423,30 @@ Max Width Styles
 }
 .mw10 {
   max-width: 128rem;
+}
+.mw100 {
+	max-width: 100%;
+}
+.mw75 {
+	max-width: 75%;
+}
+.mw50 {
+	max-width: 50%;
+}
+.mw25 {
+	max-width: 25%;
+}
+.w100 {
+	width: 100%;
+}
+.w75 {
+	width: 75%;
+}
+.w50 {
+	width: 50%;
+}
+.w25 {
+	width: 25%;
 }
 
 /*---
@@ -496,6 +520,9 @@ Responsive Styles
 	}
 	.p3-top-s {
 		padding-top: 3rem;
+	}
+	.p5-top-s {
+		padding-top: 5rem;
 	}
 	.p20-bot-s {
 		padding-bottom: 20rem;
