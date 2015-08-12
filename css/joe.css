@@ -491,7 +491,7 @@ Min Height Styles
 Responsive Styles
 ---*/
 @media screen and (min-width: 48em) {
-	.wi50-s {
+	.w50-s {
 		width: 50%;
 	}
 	.p1-s {
@@ -533,13 +533,30 @@ Responsive Styles
 	.p3-s {
 		padding: 3rem;
 	}
+	.p4-s {
+		padding: 4rem;
+	}
+	.p5-s {
+		padding: 5rem;
+	}
 	.p15-sides-s {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
 	}
+	.p2-sides-s {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 	.p3-sides-s {
 		padding-left: 3rem;
 		padding-right: 3rem;
+	}
+	.p4-sides-s {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.m2-s {
+		margin: 2rem;
 	}
 	.m4-s {
 		margin: 4rem;
@@ -550,6 +567,9 @@ Responsive Styles
 	.m1-top-s {
 		margin-top: 1rem;
 	}
+	.m2-top-s {
+		margin-top: 2rem;
+	}
 	.m1-bot-s {
 		margin-bottom: 1rem;
 	}
@@ -559,8 +579,9 @@ Responsive Styles
 	.m5-bot-s {
 		margin-bottom: 2rem;
 	}
-	.m15-right-s {
-		margin-right: 1.5rem;
+	.m2-sides-s {
+		margin-right: 2rem;
+		margin-left: 2rem;
 	}
 	.show-s {
 		display: block;
