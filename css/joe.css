@@ -82,6 +82,9 @@ General Styles
 .relative {
 	position: relative;
 }
+.border-box {
+	box-sizing: border-box;
+}
 
 /*---
 Border Styles
@@ -162,12 +165,6 @@ Color Styles
 }
 a:hover .ylw-hov{
 	color: rgba(230,230,90,1);
-}
-.show-invis:hover .invis {
-	visibility: visible;
-}
-.bg-img {
-	will-change: transform;
 }
 
 /*---
@@ -384,6 +381,12 @@ Margin Styles
 .m05-left {
 	margin-left: .5rem;
 }
+.m1-left {
+	margin-left: 1rem;
+}
+.m2-left {
+	margin-left: 2rem;
+}
 .m0 {
 	margin: 0;
 }
@@ -436,18 +439,6 @@ Width Styles
 .mw25 {
 	max-width: 25%;
 }
-.w100 {
-	width: 100%;
-}
-.w75 {
-	width: 75%;
-}
-.w50 {
-	width: 50%;
-}
-.w25 {
-	width: 25%;
-}
 
 /*---
 Max Height Styles
@@ -491,8 +482,17 @@ Min Height Styles
 Responsive Styles
 ---*/
 @media screen and (min-width: 48em) {
+	.w100-s {
+		width: 100%;
+	}
+	.w75-s {
+		width: 75%;
+	}
 	.w50-s {
 		width: 50%;
+	}
+	.w25-s {
+		width: 25%;
 	}
 	.p1-s {
 		padding: 1rem;
@@ -583,6 +583,9 @@ Responsive Styles
 		margin-right: 2rem;
 		margin-left: 2rem;
 	}
+	.m2-left-s {
+		margin-left: 2rem;
+	}
 	.show-s {
 		display: block;
 	}
@@ -591,9 +594,11 @@ Responsive Styles
 	}
 	.left-s {
 		float: left;
+		box-sizing: border-box;
 	}
 	.right-s {
 		float: right;
+		box-sizing: border-box;
 	}
 	.mih15-s {
 		min-height: 15rem;
