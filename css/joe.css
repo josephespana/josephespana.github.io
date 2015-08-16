@@ -1,7 +1,7 @@
 /*
 
-    Joseph Espana Portfolio CSS v2
-    http://josephespana.com
+    joe.css v0.1
+    http://github.com/josephespana/joe.css
 
 */
 
@@ -24,11 +24,8 @@ a {
 	text-decoration: none;
 	color: #4E84C1;
 }
-a:hover {
-	color: #e6e65a;
-}
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Domine', serif;
+	font-family: 'Domine', Georgia, serif;
 	line-height: 1.25;
 }
 img {
@@ -111,6 +108,9 @@ Border Styles
 .b-gray {
 	border-color: #666;
 }
+.b-blue {
+	border-color: #345da8;
+}
 
 /*---
 Color Styles
@@ -163,9 +163,6 @@ Color Styles
 .yellow {
 	color: #e6e65a;
 }
-a:hover .ylw-hov{
-	color: rgba(230,230,90,1);
-}
 
 /*---
 Hover Styles
@@ -180,12 +177,30 @@ Hover Styles
 	opacity: 1;
 }
 .hov-lighter:hover {
-	opacity: .85;
+	opacity: .5;
 }
 
 /*---
 Typography Styles
 ---*/
+.f1 {
+	font-size: 4rem;
+}
+.f2 {
+	font-size: 2rem;
+}
+.f3 {
+	font-size: 1.25rem;
+}
+.f4 {
+	font-size: 1rem;
+}
+.f5 {
+	font-size: .85rem;
+}
+.f6 {
+	font-size: .7rem;
+}
 .normal {
 	font-weight: normal;
 }
@@ -198,6 +213,7 @@ Typography Styles
 .center {
 	text-align: center;
 }
+
 
 /*---
 Padding Styles
@@ -363,8 +379,23 @@ Margin Styles
 .m4-bot {
 	margin-bottom: 4rem;
 }
+.m5-bot {
+	margin-bottom: 5rem;
+}
+.m6-bot {
+	margin-bottom: 6rem;
+}
+.m7-bot {
+	margin-bottom: 7rem;
+}
 .m8-bot {
 	margin-bottom: 8rem;
+}
+.m9-bot {
+	margin-bottom: 9rem;
+}
+.m10-bot {
+	margin-bottom: 10rem;
 }
 .m0-right {
 	margin-right: 0;
@@ -485,6 +516,24 @@ Min Height Styles
 Responsive Styles
 ---*/
 @media screen and (min-width: 48em) {
+	.f1-s {
+		font-size: 4rem;
+	}
+  .f2-s {
+		font-size: 2rem;
+	}
+  .f3-s {
+		font-size: 1.25rem;
+	}
+  .f4-s {
+		font-size: 1rem;
+	}
+  .f5-s {
+		font-size: .85rem;
+	}
+  .f6-s {
+		font-size: .7rem;
+	}
 	.w100-s {
 		width: 100%;
 	}
@@ -643,47 +692,5 @@ Responsive Styles
 	}
 	.mw10-s {
 	  max-width: 128rem;
-	}
-}
-@media screen and (min-width: 48em) and (max-width: 64em) {
-	.wi50-m {
-		width: 50%;
-	}
-	.p2-m {
-		padding: 2rem;
-	}
-	.p3-m {
-		padding: 3rem;
-	}
-}
-@media screen and (min-width: 64em) {
-	.wi50-l {
-		width: 50%;
-	}
-	.wi33-l {
-		width: 33%;
-	}
-	.p2-l {
-		padding: 2rem;
-	}
-	.p3-l {
-		padding: 3rem;
-	}
-	.p1-top-l {
-		padding-top: 1rem;
-	}
-	.p2-top-l {
-		padding-top: 2rem;
-	}
-	.p20-bot-l {
-		padding-bottom: 20rem;
-	}
-}
-@media screen and (min-width: 96em) {
-	.wi50-xl {
-		width: 50%;
-	}
-	.wi25-xl {
-		width: 25%;
 	}
 }
