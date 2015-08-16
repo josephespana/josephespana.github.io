@@ -217,6 +217,9 @@ Padding Styles
 .p2 {
 	padding: 2rem;
 }
+.p3 {
+	padding: 3rem;
+}
 .p0-top {
 	padding-top: 0;
 }
@@ -503,10 +506,10 @@ Responsive Styles
 	.p2-s {
 		padding: 2rem;
 	}
-	.p2-le-s {
+	.p2-left-s {
 		padding-left: 2rem;
 	}
-	.p2-ri-s {
+	.p2-right-s {
 		padding-right: 2rem;
 	}
 	.p0-top-s {
@@ -554,6 +557,10 @@ Responsive Styles
 	.p4-sides-s {
 		padding-left: 4rem;
 		padding-right: 4rem;
+	}
+	.p5-sides-s {
+		padding-left: 5rem;
+		padding-right: 5rem;
 	}
 	.m2-s {
 		margin: 2rem;
