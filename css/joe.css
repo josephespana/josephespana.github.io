@@ -82,6 +82,9 @@ General Styles
 .relative {
 	position: relative;
 }
+.border-box {
+	box-sizing: border-box;
+}
 
 /*---
 Border Styles
@@ -163,12 +166,6 @@ Color Styles
 a:hover .ylw-hov{
 	color: rgba(230,230,90,1);
 }
-.show-invis:hover .invis {
-	visibility: visible;
-}
-.bg-img {
-	will-change: transform;
-}
 
 /*---
 Hover Styles
@@ -219,6 +216,9 @@ Padding Styles
 }
 .p2 {
 	padding: 2rem;
+}
+.p3 {
+	padding: 3rem;
 }
 .p0-top {
 	padding-top: 0;
@@ -279,6 +279,12 @@ Padding Styles
 }
 .p2-bot {
 	padding-bottom: 2rem;
+}
+.p3-bot {
+	padding-bottom: 3rem;
+}
+.p4-bot {
+	padding-bottom: 4rem;
 }
 .p5-bot {
 	padding-bottom: 5rem;
@@ -351,6 +357,12 @@ Margin Styles
 .m2-bot {
 	margin-bottom: 2rem;
 }
+.m3-bot {
+	margin-bottom: 3rem;
+}
+.m4-bot {
+	margin-bottom: 4rem;
+}
 .m8-bot {
 	margin-bottom: 8rem;
 }
@@ -372,6 +384,12 @@ Margin Styles
 .m05-left {
 	margin-left: .5rem;
 }
+.m1-left {
+	margin-left: 1rem;
+}
+.m2-left {
+	margin-left: 2rem;
+}
 .m0 {
 	margin: 0;
 }
@@ -380,7 +398,7 @@ Margin Styles
 }
 
 /*---
-Max Width Styles
+Width Styles
 ---*/
 .mw1 {
   max-width: 1rem;
@@ -411,6 +429,18 @@ Max Width Styles
 }
 .mw10 {
   max-width: 128rem;
+}
+.mw100 {
+	max-width: 100%;
+}
+.mw75 {
+	max-width: 75%;
+}
+.mw50 {
+	max-width: 50%;
+}
+.mw25 {
+	max-width: 25%;
 }
 
 /*---
@@ -455,8 +485,17 @@ Min Height Styles
 Responsive Styles
 ---*/
 @media screen and (min-width: 48em) {
-	.wi50-s {
+	.w100-s {
+		width: 100%;
+	}
+	.w75-s {
+		width: 75%;
+	}
+	.w50-s {
 		width: 50%;
+	}
+	.w25-s {
+		width: 25%;
 	}
 	.p1-s {
 		padding: 1rem;
@@ -467,10 +506,10 @@ Responsive Styles
 	.p2-s {
 		padding: 2rem;
 	}
-	.p2-le-s {
+	.p2-left-s {
 		padding-left: 2rem;
 	}
-	.p2-ri-s {
+	.p2-right-s {
 		padding-right: 2rem;
 	}
 	.p0-top-s {
@@ -482,15 +521,49 @@ Responsive Styles
 	.p15-top-s {
 		padding-top: 1.5rem;
 	}
+	.p3-top-s {
+		padding-top: 3rem;
+	}
+	.p5-top-s {
+		padding-top: 5rem;
+	}
 	.p20-bot-s {
 		padding-bottom: 20rem;
+	}
+	.p4-bot-s {
+		padding-bottom: 4rem;
 	}
 	.p3-s {
 		padding: 3rem;
 	}
+	.p4-s {
+		padding: 4rem;
+	}
+	.p5-s {
+		padding: 5rem;
+	}
 	.p15-sides-s {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
+	}
+	.p2-sides-s {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.p3-sides-s {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.p4-sides-s {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.p5-sides-s {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+	.m2-s {
+		margin: 2rem;
 	}
 	.m4-s {
 		margin: 4rem;
@@ -501,6 +574,9 @@ Responsive Styles
 	.m1-top-s {
 		margin-top: 1rem;
 	}
+	.m2-top-s {
+		margin-top: 2rem;
+	}
 	.m1-bot-s {
 		margin-bottom: 1rem;
 	}
@@ -510,8 +586,12 @@ Responsive Styles
 	.m5-bot-s {
 		margin-bottom: 2rem;
 	}
-	.m15-right-s {
-		margin-right: 1.5rem;
+	.m2-sides-s {
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+	.m2-left-s {
+		margin-left: 2rem;
 	}
 	.show-s {
 		display: block;
@@ -521,9 +601,11 @@ Responsive Styles
 	}
 	.left-s {
 		float: left;
+		box-sizing: border-box;
 	}
 	.right-s {
 		float: right;
+		box-sizing: border-box;
 	}
 	.mih15-s {
 		min-height: 15rem;
