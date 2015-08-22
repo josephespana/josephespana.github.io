@@ -163,6 +163,9 @@ Color Styles
 .yellow {
 	color: #e6e65a;
 }
+.gray {
+	color: #666;
+}
 
 /*---
 Hover Styles
@@ -473,6 +476,18 @@ Width Styles
 .mw25 {
 	max-width: 25%;
 }
+.w100 {
+	width: 100%;
+}
+.w75 {
+	width: 75%;
+}
+.w50 {
+	width: 50%;
+}
+.w25 {
+	width: 25%;
+}
 
 /*---
 Max Height Styles
@@ -625,6 +640,15 @@ Responsive Styles
 	}
 	.m2-top-s {
 		margin-top: 2rem;
+	}
+	.m3-top-s {
+		margin-top: 3rem;
+	}
+	.m4-top-s {
+		margin-top: 4rem;
+	}
+	.m5-top-s {
+		margin-top: 5rem;
 	}
 	.m1-bot-s {
 		margin-bottom: 1rem;
