@@ -148,6 +148,9 @@ Color Styles
 .bg-dk-blue {
 	background-color: rgba(0,115,207,1);
 }
+.bg-princess {
+	background-color: #004691;
+}
 .bg-black-op {
 	background-color: rgba(0,0,0,.25);
 }
@@ -173,7 +176,7 @@ Hover Styles
 .hov-show-con:hover .hov-show {
 	opacity: 1;
 }
-.hov-show{
+.hov-show {
 	opacity: 0;
 }
 .hov-show:hover {
@@ -181,6 +184,12 @@ Hover Styles
 }
 .hov-lighter:hover {
 	opacity: .5;
+}
+.hov-bg-white:hover {
+	background-color: #fff;
+}
+.hov-blue:hover {
+	color: #345da8;
 }
 
 /*---
