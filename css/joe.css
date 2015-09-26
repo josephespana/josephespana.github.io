@@ -35,6 +35,10 @@ p {
 	font-family: 'Monda', 'Helvetica', Arial, sans-serif;
 	line-height: 1.45;
 }
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
 
 /*---
 General Styles
