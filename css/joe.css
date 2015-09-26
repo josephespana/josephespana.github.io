@@ -185,9 +185,6 @@ Color Styles
 /*---
 Hover Styles
 ---*/
-.hov-show-con:hover .hov-show {
-	opacity: 1;
-}
 .hov-show {
 	opacity: 0;
 }
@@ -195,13 +192,43 @@ Hover Styles
 	opacity: 1;
 }
 .hov-lighter:hover {
-	opacity: .85;
+	opacity: .5;
+}
+.hov-underline:hover {
+	text-decoration: underline;
+}
+.hov-bg-blue:hover {
+	background-color: #4E84C1;
 }
 .hov-bg-white:hover {
 	background-color: #fff;
 }
+.hov-bg-black:hover {
+	background-color: #000;
+}
+.hov-bg-lt-gray:hover {
+	background-color: #f8f8f8;
+}
 .hov-blue:hover {
-	color: #345da8;
+	color: #4E84C1;
+}
+.hov-white:hover {
+	color: #fff;
+}
+.hov-black:hover {
+	color: #333;
+}
+.hov-b-white:hover {
+	border-color: #fff;
+}
+.hov-b-lt-gray:hover {
+	border-color: #ccc;
+}
+.hov-b-gray:hover {
+	border-color: #666;
+}
+.hov-b-blue:hover {
+	border-color: #345da8;
 }
 
 /*---
@@ -649,11 +676,35 @@ Responsive Styles
 	.p5-top-s {
 		padding-top: 5rem;
 	}
-	.p20-bot-s {
-		padding-bottom: 20rem;
+	.p1-bot-s {
+		padding-bottom: 1em;
+	}
+	.p2-bot-s {
+		padding-bottom: 2em;
+	}
+	.p3-bot-s {
+		padding-bottom: 3em;
 	}
 	.p4-bot-s {
-		padding-bottom: 4rem;
+		padding-bottom: 4em;
+	}
+	.p5-bot-s {
+		padding-bottom: 5em;
+	}
+	.p6-bot-s {
+		padding-bottom: 6em;
+	}
+	.p7-bot-s {
+		padding-bottom: 7em;
+	}
+	.p8-bot-s {
+		padding-bottom: 8em;
+	}
+	.p9-bot-s {
+		padding-bottom: 9em;
+	}
+	.p10-bot-s {
+		padding-bottom: 10rem;
 	}
 	.p3-s {
 		padding: 3rem;
