@@ -166,6 +166,21 @@ Color Styles
 .bg-black-op {
 	background-color: rgba(0,0,0,.25);
 }
+.bg-gradient {
+	background: -webkit-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
+	background: -o-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
+	background: -moz-linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
+	background: linear-gradient(45deg, #0f333e 0%, #6cb0c4 50%, #1287a8 100%);
+	animation-duration: 30s;
+	-moz-animation-duration: 30s;
+	-webkit-animation-duration: 30s;
+	animation-name: fading;
+	-moz-animation-name: fading;
+	-webkit-animation-name: fading;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
 .white {
 	color: #fff;
 }
@@ -520,34 +535,49 @@ Margin Styles
 Width Styles
 ---*/
 .mw1 {
-  max-width: 1rem;
+  max-width: 1em;
 }
 .mw2 {
-  max-width: 2rem;
+  max-width: 2em;
 }
 .mw3 {
-  max-width: 4rem;
+  max-width: 4em;
 }
 .mw4 {
-  max-width: 8rem;
+  max-width: 8em;
 }
 .mw5 {
-  max-width: 16rem;
+  max-width: 16em;
 }
 .mw6 {
-  max-width: 32rem;
+  max-width: 24em;
 }
 .mw7 {
-  max-width: 48rem;
+  max-width: 32em;
 }
 .mw8 {
-  max-width: 64rem;
+  max-width: 40em;
 }
 .mw9 {
-  max-width: 96rem;
+  max-width: 48em;
 }
 .mw10 {
-  max-width: 128rem;
+  max-width: 56em;
+}
+.mw11 {
+  max-width: 64em;
+}
+.mw12 {
+  max-width: 72em;
+}
+.mw13 {
+  max-width: 96em;
+}
+.mw14 {
+  max-width: 102em;
+}
+.mw15 {
+  max-width: 128em;
 }
 .mw100 {
 	max-width: 100%;
@@ -797,33 +827,48 @@ Responsive Styles
 		height: 5rem;
 	}
 	.mw1-s {
-	  max-width: 1rem;
+		max-width: 1em;
 	}
 	.mw2-s {
-	  max-width: 2rem;
+		max-width: 2em;
 	}
 	.mw3-s {
-	  max-width: 4rem;
+		max-width: 4em;
 	}
 	.mw4-s {
-	  max-width: 8rem;
+		max-width: 8em;
 	}
 	.mw5-s {
-	  max-width: 16rem;
+		max-width: 16em;
 	}
 	.mw6-s {
-	  max-width: 32rem;
+		max-width: 24em;
 	}
 	.mw7-s {
-	  max-width: 48rem;
+		max-width: 32em;
 	}
 	.mw8-s {
-	  max-width: 64rem;
+		max-width: 40em;
 	}
 	.mw9-s {
-	  max-width: 96rem;
+		max-width: 48em;
 	}
 	.mw10-s {
-	  max-width: 128rem;
+		max-width: 56em;
+	}
+	.mw11-s {
+		max-width: 64em;
+	}
+	.mw12-s {
+		max-width: 72em;
+	}
+	.mw13-s {
+		max-width: 96em;
+	}
+	.mw14-s {
+		max-width: 102em;
+	}
+	.mw15-s {
+		max-width: 128em;
 	}
 }
