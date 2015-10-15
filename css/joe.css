@@ -104,10 +104,10 @@ General Styles
 	bottom: 0;
 }
 .bot-1 {
-	bot: -1em;
+	bottom: -1em;
 }
 .bot-2 {
-	bot: -2em;
+	bottom: -2em;
 }
 .list {
   list-style-type: none;
