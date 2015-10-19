@@ -141,13 +141,13 @@ Flexbox Styles
 .flex-between {
 	justify-content: space-between;
 }
-.wrap {
+.flex-wrap {
 	flex-wrap: wrap;
 }
-.nowrap {
+.flex-nowrap {
 	flex-wrap: nowrap;
 }
-.wrap-rev {
+.flex-wrap-rev {
 	flex-wrap: wrap-reverse;
 }
 .flex-stretch {
@@ -443,6 +443,9 @@ Typography Styles
 }
 .t-right {
 	text-align: right;
+}
+.nowrap {
+	white-space: nowrap;
 }
 
 /*---
