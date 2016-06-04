@@ -84,6 +84,9 @@ General Styles (Classes)
 .shadow {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
+.underline {
+	text-decoration: underline;
+}
 
 /*---
 Color Styles (Classes)
@@ -391,6 +394,12 @@ Layout Styles = messy will clean later
 }
 .mih50vh {
 	min-height: 50vh;
+}
+.mih80vh {
+	min-height: 80vh;
+}
+.mih100vh {
+	min-height: 100vh;
 }
 
 /*---
